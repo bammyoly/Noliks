@@ -1,4 +1,4 @@
-# ZAMail
+# Noliks
 # Send Encrypted Messages Onchain
 
 ## Structure

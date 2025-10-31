@@ -60,7 +60,7 @@ export const sendMail = async (req, res) => {
     }
     else {
       return res.status(400).json({
-        error: "Invalid payload. Provide either: (A) txHash+contract, OR (B) handles+inputProof, OR (C) tsPlain+subjectHashPlain."
+        error: "Invalid payload."
       });
     }
 

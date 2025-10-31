@@ -57,7 +57,7 @@ const Sidebar = () => {
         {/* Header + Close (mobile) */}
         <div className="flex items-center justify-between mb-8 lg:mb-8">
           <div className="text-3xl font-bold text-gray-600">
-            Zamail
+            Noliks
           </div>
           <button
             onClick={() => setIsOpen(false)}

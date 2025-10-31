@@ -1,0 +1,52 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Build caches
+**/.cache/
+**/.vite/
+**/.parcel-cache/
+**/.turbo/
+
+# Frontend builds
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Backend builds & env
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/logs/
+backend/*.log
+
+# Hardhat
+contract/artifacts/
+contract/cache/
+contract/typechain/
+contract/coverage/
+contract/coverage.json
+contract/.env
+contract/.env.*
+!contract/.env.example
+
+# OpenZeppelin (if used)
+.openzeppelin/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Misc
+*.local
+*.secret

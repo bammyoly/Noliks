@@ -1,0 +1,6 @@
+{
+  "FHEMailPolicy": "0xB73Dc48E091394019cBA746E0BB43bACd08BC38C",
+  "sepolia": {
+    "FHEMailPolicy": "0x30A8aa009A9f5a8041C33D2A6FFc6539FCC533Ca"
+  }
+}
